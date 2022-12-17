@@ -409,7 +409,7 @@ img {
     .menu__item {
       margin-right: 0; } }
   .menu__item:hover {
-    background: center/contain no-repeat url("../../images/icons/yellow.svg"); }
+    background: center/contain no-repeat url("../images/icons/yellow.svg"); }
   .menu__item:last-child {
     margin-right: 0; }
 
@@ -509,7 +509,7 @@ label {
   position: relative; }
   .intro__inner::before {
     position: absolute;
-    content: url(../../images/decor/main-decor.png);
+    content: url(../images/decor/main-decor.png);
     z-index: -1;
     left: -20%;
     top: -30%; }
@@ -518,7 +518,7 @@ label {
         top: -41%; } }
   .intro__inner::after {
     position: absolute;
-    content: url(../../images/decor/main-decor-2.png);
+    content: url(../images/decor/main-decor-2.png);
     right: -25%;
     top: -40%;
     z-index: -1; }
@@ -622,7 +622,7 @@ label {
 .service__number {
   font-size: 2.625rem;
   position: relative;
-  background: bottom/contain no-repeat url("../../images/icons/yellow.svg");
+  background: bottom/contain no-repeat url("../images/icons/yellow.svg");
   line-height: 100%;
   margin-right: 0.625rem;
   height: auto; }
@@ -685,7 +685,7 @@ label {
 
 .about__bottom {
   width: 16.25rem;
-  background: center/contain no-repeat url("../../images/icons/yellow.svg");
+  background: center/contain no-repeat url("../images/icons/yellow.svg");
   padding-left: 1.0416666667rem;
   font-style: italic;
   text-align: center; }
@@ -781,7 +781,7 @@ label {
   position: relative; }
   .builder__inner--first:before {
     position: absolute;
-    content: url("../../images/decor/waves.png");
+    content: url("../images/decor/waves.png");
     top: -100px;
     left: 0; }
     @media screen and (max-width: 480px) {
@@ -805,7 +805,7 @@ label {
   margin-bottom: 1.0416666667rem; }
   .builder__description--bottom {
     text-align: center;
-    background: center url("../../images/icons/yellow.svg");
+    background: center url("../images/icons/yellow.svg");
     background-size: 105%; }
 
 .builder__text-img {
@@ -838,7 +838,7 @@ label {
   margin-bottom: 1.0416666667rem;
   font-weight: bold;
   position: relative;
-  background: center/contain no-repeat url("../../images/icons/yellow.svg");
+  background: center/contain no-repeat url("../images/icons/yellow.svg");
   width: 16.6666666667rem;
   height: 2.7083333333rem;
   text-align: center;
