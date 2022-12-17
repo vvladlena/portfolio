@@ -28,8 +28,8 @@ const langArr = {
         "ua": "Написати",
     },
     "portfolio-btn": {
-        "pl": "Open",
-        "ua": "Open",
+        "pl": "Otwórz",
+        "ua": "Перейти",
     },
     "bottom-btn": {
         "pl": "Napisać",
