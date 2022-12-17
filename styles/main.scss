@@ -1,0 +1,43 @@
+$containerWidth: 1200px;
+$baseFontSize: 24px;
+
+$firstColor: #171625;
+$secondaryColor: #DFFF84;
+$fontColor: #171625;
+$backgroundColor: #F8F7F5;
+$backgroundColorDark: #F3F1ED;
+
+$z-fixed-menu: 100%;
+
+$baseFontFamily:'Cormorant Garamond', serif;
+$secondaryFontFamily:'Merriweather', serif;
+
+
+$tablets: 768px;
+$phones: 480px;
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet');
+@import "layout/normalize";
+@import "layout/media";
+
+@import "layout/base";
+@import "blocks/menu";
+@import "blocks/logo";
+@import "blocks/button";
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/section";
+@import "blocks/services";
+@import "blocks/about";
+@import "blocks/study";
+@import "blocks/features";
+@import "blocks/builder";
+@import "blocks/projects";
+@import "blocks/bottom";
+@import "blocks/footer";
+
+
+
+
+
+

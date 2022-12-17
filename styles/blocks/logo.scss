@@ -1,0 +1,12 @@
+.logo__name {
+    font-size: rem(50px);
+
+    @include tablets {
+        font-size: 40px;
+    }
+
+    @include phones {
+        font-size: rem(30px);
+    }
+}
+

@@ -1,0 +1,52 @@
+.section__inner--study {
+    flex-direction: row;
+    @include phones {
+        flex-direction: column;
+    }
+}
+
+.study__info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 3%;
+
+    @include phones {
+        width: 98%;
+    }
+}
+
+.study__list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-left: 1px solid $firstColor;
+    padding-left: 10px;
+
+    @include phones {
+        border-left: 0;
+        padding-left: 0;
+        width: 98%;
+        justify-content: center;
+    }
+}
+
+.study__item {
+    margin-bottom: rem(25px);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.study__title {
+    text-transform: uppercase;
+    margin-bottom: rem(25px);
+    width: 98%;
+    position: relative;
+
+}
+
+.study__text {
+    margin-bottom: rem(25px);
+}

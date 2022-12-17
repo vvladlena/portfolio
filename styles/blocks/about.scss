@@ -1,0 +1,87 @@
+
+
+.about__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.about__image {
+    width: 40%;
+    top: -20px;
+    position: relative;
+
+    @include tablets {
+        width: 100%;
+        top: 0;
+        margin-bottom: rem(25px);
+    }
+}
+
+.about__info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+
+    @include tablets {
+        width: 100%;
+        left: auto;
+        align-items: center;
+    }
+}
+
+.about__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: rem(50px) rem(45px);
+    background: $firstColor;
+    color: #fff;
+    min-height: rem(360px);
+    margin-bottom: rem(15px);
+    text-align: center;
+    font-size: rem(20px);
+    line-height: 1.5;
+
+
+    &-title {
+        font-size: rem(25px);
+        margin-bottom: (25px);
+    }
+
+    &-description {
+        height: auto;
+    }
+
+    @include phones{
+    padding: 20px;
+
+    }
+}
+
+.about__bottom {
+    width: rem(390px);
+    background: center / contain no-repeat url('../../images/icons/yellow.svg');
+    padding-left: rem(25px);
+    font-style: italic;
+    text-align: center;
+
+
+    @include tablets{
+        padding: 0;
+        background-position: center;
+    }
+
+}

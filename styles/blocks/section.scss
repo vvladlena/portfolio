@@ -1,0 +1,36 @@
+.section {
+    padding: 70px 0;
+}
+
+.section__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services {
+    margin-bottom: 0;
+}
+
+.about {
+    background: $backgroundColor;
+}
+
+.study {
+    background: $backgroundColorDark;
+}
+
+.features {
+    background: $backgroundColor;
+}
+
+.builder {
+    background: $backgroundColorDark;
+}
+
+.bottom {
+    background: $backgroundColorDark;
+    border-bottom: 1px solid $fontColor;
+
+}

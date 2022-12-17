@@ -1,0 +1,44 @@
+
+.builder__inner--first{
+    position: relative; 
+
+    &:before {
+        position: absolute;
+        content: url('../../images/decor/waves.png');
+        top: -100px;
+        left: 0;
+
+        @include phones{
+            left: auto;
+            right: 0;
+        }
+    }
+}
+
+.builder__text {
+    display: flex;
+    margin-bottom: rem(25px);
+    align-items: center;
+    justify-content: center;
+}
+
+.builder__title {
+    font-weight: bold;
+}
+
+.builder__description {
+    text-align: center;
+    width: 100%;
+    max-width: 850px;
+    margin-bottom: rem(25px);
+
+    &--bottom {
+        text-align: center;
+        background: center url('../../images/icons/yellow.svg');
+        background-size: 105%;
+    }
+}
+
+.builder__text-img {
+    margin-right: rem(15px);
+}

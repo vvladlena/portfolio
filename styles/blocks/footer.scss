@@ -1,0 +1,20 @@
+.footer__content {
+    height: rem(87px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__image {
+    margin-right: 25px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        border: 2px solid $secondaryColor;
+    }
+}

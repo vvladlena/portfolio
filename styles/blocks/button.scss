@@ -1,0 +1,39 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: rem(200px);
+    height: rem(70px);
+    background-color: $firstColor;
+    border-radius: 18px;
+    font-size: rem(22px);
+    color: #fff;
+    padding: 5px;
+    border: none;
+
+    &:hover {
+        background-color: #fff;
+        color: $firstColor;
+        border: 0.5px solid $firstColor;
+
+    }
+
+    &__name {
+        margin-right: rem(15px);
+    }
+}
+
+
+
+.button_light {
+    background: #fff;
+    color: $firstColor;
+    border: 0.5px solid $firstColor;
+
+    &:hover {
+        background: $firstColor;
+        color: #fff;
+    }
+
+}
+

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <link rel="icon" href="./favicon.svg">
+    <title>Vladlena Tsenzeria</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="maincontent">
+            <div class="container">
+                <header class="header">
+
+                    <nav class="menu" role="navigation">
+                        <input class="nav__check" type="checkbox" id="showmenu" />
+                        <label class="nav__showmenu" for="showmenu">&#9776;</label>
+                        <label class="nav__back" for="showmenu"></label>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#intro" class="menu__link lng-menu-services">Głowna</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#services" class="menu__link lng-menu-about">O mnie</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#projects" class="menu__link lng-menu-portfolio">Portfolio</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#bottom" class="menu__link lng-menu-contact">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <select name="countries" id="countries" class=" language change-lang">
+                        <option value="pl" selected>PL</option>
+                        <option value="ua">UA</option>
+                    </select>
+                </header>
+
+
+            </div>
+
+            <section id="intro" class="section intro">
+                <div class="container">
+                    <div class="intro__inner">
+                        <div class="intro__content">
+                            <h1 class="intro__name lng-intro-title">
+                                Владлена <br> Цензеря
+                            </h1>
+                            <div class="intro__description">
+                                <div class="intro__description-position">web developer | website creator</div>
+                                <div class="intro__description-work lng-intro-description">skuteczne strony internetowe
+                                </div>
+                            </div>
+                            <a href="mailto:tsenzeria.v@gmail.com" class="button intro__button " id="intro-button">
+                                <div class="button__name lng-intro-btn">Napisać</div>
+                                <img class="button__img" src="images/icons/triangle-yellow.svg" alt="triangle">
+                            </a>
+                        </div>
+                        <div class="intro__image">
+                            <img src="./images/main/intro.jpeg" alt="" class="intro__image-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="services" class="section services">
+                <div class="container">
+                    <ul class="services__list">
+                        <li class="services__item service">
+                            <p class="service__number">01</p>
+                            <div class="service__description lng-service-description-1">Dokończę wizerunek twojej marki
+                                w Internecie.</div>
+                        </li>
+                        <li class="services__item service">
+                            <p class="service__number">02</p>
+                            <div class="service__description lng-service-description-2">Stworzę stronę, która
+                                przyciągnie Ci nowych klientów.</div>
+                        </li>
+                        <li class="services__item service">
+                            <p class="service__number">03</p>
+                            <div class="service__description lng-service-description-3">Automatyzuję procesy i obniżę
+                                twoje koszty.</div>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="section about">
+                <div class="container">
+                    <div class="section__inner">
+                        <h2 class="about__title title-style lng-about-title">O mnie</h2>
+                        <div class="about__content">
+                            <div class="about__image">
+                                <img src="./images/main/about.jpg" alt="frontend developer" class="about__image-img">
+                            </div>
+                            <div class="about__info">
+                                <div class="about__text">
+                                    <div class="about__text-title lng-text-title">Cześć, mam na imię Vlada</div>
+                                    <div class="about__text-description lng-text-description">Już ponad rok zajmuję się
+                                        projektowaniem stron internetowych. Przez jakiś czas miałam pracę, która nie
+                                        była związana z Web, chociaż już na studiach wiedziałam, że Web Development — to
+                                        moja pasja. To coś, co lubię i czym chcę się zajmować. Dlatego zdecydowałam
+                                        zaryzykować i cały swój czas poświęcić na tworzenie stron internetowych i na to,
+                                        żeby rozwijać się w tym kierunku. Zrezygnowałam ze stałej pracy i otworzyłam
+                                        własną działalność gospodarczą. Teraz pracuję jako freelancer. Moi klienci to
+                                        głównie właściciele małych firm, którzy chcą rozwijać swój biznes, przyciągać
+                                        nowych klientów i zwiększać swój dochód.
+                                    </div>
+                                </div>
+                                <div class="about__bottom lng-about-bottom">
+                                    Gotowa tworzyć niesamowite rzeczy ze wspaniałymi ludźmi!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section study">
+                <div class="container">
+                    <div class="section__inner section__inner--study">
+                        <div class="study__info">
+                            <h2 class="study__title lng-study-title">весь час навчаюсь новому</h2>
+                            <div class="study__text lng-study-text">
+                                W 2017 roku ukończyłam uniwersytet, z zawodu jestem Analitykiem systemów komputerowych.
+                                Na studiach poznałam się z tworzeniem stron internetowych i od tego czasu ciągle
+                                pogłębiam swoją wiedzę w tej dziedzinie.
+                            </div>
+                        </div>
+                        <ul class="study__list">
+                            <li class="study__item">
+                                <div class="study__year">2021:</div>
+                                <div class="study__course lng-course-1">• kurs Frontend developer w szkole Loftschool
+                                </div>
+                                <div class="study__course lng-course-2">• kurs Javascript na Udemy</div>
+                            </li>
+                            <li class="study__item">
+                                <div class="study__year">2022:</div>
+                                <div class="study__course lng-course-3">• kurs Web-design w szkole Genius Space</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section features">
+                <div class="container">
+                    <div class="section__inner">
+                        <h2 class="features__title title-style lng-features-title">korzyści</h2>
+                        <div class="features__content">
+                            <ul class="features__list">
+                                <li class="features__item features__item--main ">
+                                    <img src="./images/icons/puzzle.svg" alt="puzzle icon" class="features__image">
+                                    <h3 class="features__item-title lng-features-name">All in one</h3>
+                                </li>
+                                <li class="features__item lng-features-text"> Ja chętnie zrobię dla ciebie stronę <span
+                                        class='text-bold'> od samego początku i dodam ją na hosting.</span> Zaprojektuję
+                                    unikalny design, napiszę kod, zaprogramuję twoją stronę i jej wyszukiwanie w
+                                    Internecie.
+                                </li>
+                                <li class="features__item features__item--bold lng-features-text-2">Nie musisz płacić
+                                    całej ekipie specjalistów, wystarczy napisać do mnie.</li>
+                            </ul>
+                            <div class="features__image">
+                                <img src="./images/main/allin.png" alt="" class="features__image-img">
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="section builder">
+                <div class="builder__content">
+                    <div class="container">
+                        <div class="section__inner builder__inner--first">
+                            <div class="builder__text">
+                                <img src="./images/icons/copy.svg" alt="copy icon" class="builder__text-img">
+                                <h3 class="builder__title lng-builder-title">Ні! Шаблонним конструкторам</h3>
+                            </div>
+                            <div class="builder__description lng-builder-description">
+                                Dużo projektantów stron internetowych nie zajmują się programowaniem, a tylko korzystają
+                                ze specjalnych kreatorów do tworzenia stron. Ale takie <span class='text-bold'> kreatory
+                                    mają sporo wad. </span> Na przykład one mają ograniczony wybór szablonów, strony
+                                wykonane w takich kreatorach będą podobne. Funkcjonalność twojej witryny będzie zależała
+                                od możliwości takiego konstruktora. Czyli możliwe jest podłączenie tylko tych modułów,
+                                które posiada taki kreator.
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section features">
+                <div class="container">
+                    <div class="features__content features__content--end">
+                        <ul class="features__list">
+                            <li class="features__item features__item--main ">
+                                <img src="./images/icons/speed.svg" alt="speed icon" class="features__image">
+                                <h3 class="features__item-title lng-code-title">Сzysty code - dobra strona</h3>
+                            </li>
+                            <li class="features__item lng-code-text-1">Конструктори сайтів часто генерують HTML код, який в результаті
+                                виходить досить великим, а це негативно позначиться на <span class="text-bold">швидкості
+                                    завантаження сайту.</span> Більшість клієнтів просто не дочекаються повного
+                                завантаження сайту і підуть до ваших конкурентів.</li>
+                            <li class="features__item lng-code-text-2">Також, при створенні сайту за допомогою онлайн конструкторів ви
+                                можете зіткнутися з проблемами при просуванні сайту. Пошукові системи ставляться з
+                                великою недовірою до
+                                таких сайтів, тому розраховувати на <span class="text-bold">перші
+                                    позиції в пошуковій видачі</span> і велику відвідуваність не варто. </li>
+                        </ul>
+                        <div class="features__image">
+                            <img src="./images/main/features.png" alt="" class="features__image-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section__inner">
+                    <div class="builder__description lng-code-text-3">Я не користуюся шаблонними конструкторами, а створюю сайти
+                        якісно. Пишу код самостійно, максимально чисто та за всіма вимогами.
+                    </div>
+                    <div class="text-bold builder__description--bottom lng-code-text-4"> Забезпечую HTML-код, який відповідає вимогам
+                        пошукових систем.</div>
+                </div>
+
+            </section>
+
+            <section class="section projects" id="projects">
+                <div class="container">
+                    <div class="section__inner">
+
+                        <h2 class="about__title title-style">Мої проекти</h2>
+                        <div class="projects__images-list">
+                            <a href="https://vvladlena.github.io/airasia/" target="_blank"
+                                class="projects__images-item">
+                                <img src="./images/projects/airasia.png" alt="" class="projects__images-img">
+                            </a>
+                            <a href="https://vvladlena.github.io/beats/" target="_blank" class="projects__images-item">
+                                <img src="./images/projects/beats.png" alt="" class="projects__images-img">
+                            </a>
+                            <a href="http://vladlena.site/salon/" target="_blank" class="projects__images-item">
+                                <img src="./images/projects/salon.png" alt="" class="projects__images-img">
+                            </a>
+                            <a href="http://vladlena.site/eos/" target="_blank" class="projects__images-item">
+                                <img src="./images/projects/eos.png" alt="" class="projects__images-img">
+                            </a>
+                            <a href="https://vvladlena.github.io/13wyspa/" target="_blank"
+                                class="projects__images-item">
+                                <img src="./images/projects/13wyspa.png" alt="" class="projects__images-img">
+                            </a>
+                            <a href="https://vvladlena.github.io/dvltrans/" target="_blank"
+                                class="projects__images-item">
+                                <img src="./images/projects/dvl.png" alt="" class="projects__images-img">
+                            </a>
+                        </div>
+                        <ul class="projects__list slider">
+                            <li class="projects__item project">
+                                <h3 class="project__name">Airasia</h3>
+
+                                <div class="project__content">
+                                    <div class="project__image">
+                                        <img src="./images/projects/airasia.png" alt="" class="project__image--img">
+                                    </div>
+                                    <div class="project__description">
+                                        <ul class="project__description-list">
+                                            <li class="project__description-item">
+                                                <div class="project__description-title">Опис</div>
+                                                <div class="project__description-content">Проект був виконаний на курсі
+                                                    по
+                                                    frontend розробці.
+                                                    Зроблено верстку сторінок за готовим макетом з програми Figma.
+                                                    Розроблено три розділи і головну сторінку входу на сайт з
+                                                    анімацією. Без мобільної версії. </div>
+                                            </li>
+                                            <li class="project__description-item">
+                                                <div class="project__description-title lng-project-technology">Narzędzia</div>
+                                                <div class="project__description-content">Figma, HTML5, CSS3</div>
+                                            </li>
+                                        </ul>
+                                        <a href="https://vvladlena.github.io/airasia/" target="_blank"
+                                            class="button intro__button" id="intro-button">
+                                            <div class="button__name lng-portfolio-btn">Open</div>
+                                            <img class="button__img" src="images/icons/triangle-yellow.svg"
+                                                alt="triangle">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="projects__item project">
+                                <h3 class="project__name">Beats</h3>
+                                <div class="project__content">
+                                    <div class="project__image">
+                                        <img src="./images/projects/beats.png" alt="" class="project__image--img">
+                                    </div>
+                                    <div class="project__description">
+                                        <ul class="project__description-list">
+                                            <li class="project__description-item">
+                                                <div class="project__description-title">Опис</div>
+                                                <div class="project__description-content">Проект з курсу frontend
+                                                    розробки. Реалізовано адаптивний дизайн
+                                                    для відображення на різних пристроях. Додано слайдери з фото,
+                                                    вертикальний акордеон, перегляд відгуків, форма замовлення.</div>
+                                            </li>
+                                            <li class="project__description-item">
+                                                <div class="project__description-title lng-project-technology">Narzędzia</div>
+                                                <div class="project__description-content">Figma, HTML, SCSS, Javascript,
+                                                    jQuery, bxSlider</div>
+                                            </li>
+                                        </ul>
+                                        <a href="https://vvladlena.github.io/beats/" target="_blank"
+                                            class="button intro__button" id="intro-button">
+                                            <div class="button__name lng-portfolio-btn">Open</div>
+                                            <img class="button__img" src="images/icons/triangle-yellow.svg"
+                                                alt="triangle">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="projects__item project">
+                                <h3 class="project__name">Salon</h3>
+                                <div class="project__content">
+                                    <div class="project__image">
+                                        <img src="./images/projects/salon.png" alt="" class="project__image--img">
+                                    </div>
+                                    <div class="project__description">
+                                        <ul class="project__description-list">
+                                            <li class="project__description-item">
+                                                <div class="project__description-title">Опис</div>
+                                                <div class="project__description-content">Адаптивний дизайн під різні
+                                                    розширення екрану. Реалізовано слайдери для фото, форма відправки
+                                                    заявки на мейл, замовлення зворотнього дзвінка, анімація, підключена
+                                                    гугл карта.</div>
+                                            </li>
+                                            <li class="project__description-item">
+                                                <div class="project__description-title lng-project-technology">Narzędzia</div>
+                                                <div class="project__description-content">Figma, HTML, SCSS, Javascript,
+                                                    PHP</div>
+                                            </li>
+                                        </ul>
+                                        <a href="http://vladlena.site/salon/" target="_blank"
+                                            class="button intro__button" id="intro-button">
+                                            <div class="button__name lng-portfolio-btn">Open</div>
+                                            <img class="button__img" src="images/icons/triangle-yellow.svg"
+                                                alt="triangle">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="projects__item project">
+                                <h3 class="project__name">EOS</h3>
+                                <div class="project__content">
+                                    <div class="project__image">
+                                        <img src="./images/projects/eos.png" alt="" class="project__image--img">
+                                    </div>
+                                    <div class="project__description">
+                                        <ul class="project__description-list">
+                                            <li class="project__description-item">
+                                                <div class="project__description-title">Опис</div>
+                                                <div class="project__description-content">Клієнт уже мав цей сайт
+                                                    раніше, але термін дії їхнього хостингу закінчився і в них не було
+                                                    можливості його продовжити. Також вони не мали зв'язку з їхнім
+                                                    попереднім розробником сайту.
+                                                    Тому замовленням було створити точно такий сайт, який вони мали і
+                                                    додати його на новий хостинг.
+                                                </div>
+                                            </li>
+                                            <li class="project__description-item">
+                                                <div class="project__description-title lng-project-technology">Narzędzia</div>
+                                                <div class="project__description-content">Figma, HTML, SCSS, Javascript,
+                                                    PHP</div>
+                                            </li>
+                                        </ul>
+                                        <a href="http://vladlena.site/eos/" target="_blank" class="button intro__button"
+                                            id="intro-button">
+                                            <div class="button__name lng-portfolio-btn">Open</div>
+                                            <img class="button__img" src="images/icons/triangle-yellow.svg"
+                                                alt="triangle">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="projects__item project">
+                                <h3 class="project__name">13 Wyspa</h3>
+                                <div class="project__content">
+                                    <div class="project__image">
+                                        <img src="./images/projects/13wyspa.png" alt="" class="project__image--img">
+                                    </div>
+                                    <div class="project__description">
+                                        <ul class="project__description-list">
+                                            <li class="project__description-item">
+                                                <div class="project__description-title">Опис</div>
+                                                <div class="project__description-content">Перший мій сайт виконаний на
+                                                    замовлення. Можливо ще не дуже якісний, але один з улюблених.
+                                                    Замовленням було розробити максимально темний і похмурий дизайн.
+                                                </div>
+                                            </li>
+                                            <li class="project__description-item">
+                                                <div class="project__description-title lng-project-technology">Narzędzia</div>
+                                                <div class="project__description-content">HTML5, SCSS, Javascript,
+                                                    Elfsight widget
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a href="https://vvladlena.github.io/13wyspa/" target="_blank"
+                                            class="button intro__button" id="intro-button">
+                                            <div class="button__name lng-portfolio-btn">Open</div>
+                                            <img class="button__img" src="images/icons/triangle-yellow.svg"
+                                                alt="triangle">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="projects__item project">
+                                <h3 class="project__name">DVL Trans</h3>
+                                <div class="project__content">
+                                    <div class="project__image">
+                                        <img src="./images/projects/dvl.png" alt="" class="project__image--img">
+                                    </div>
+                                    <div class="project__description">
+                                        <ul class="project__description-list">
+                                            <li class="project__description-item">
+                                                <div class="project__description-title">Опис</div>
+                                                <div class="project__description-content">Простий сайт типу Landing
+                                                    Page, розроблений для міжнародної транспортної компанії. Реалізовано
+                                                    зміну мови. За замовчуванням — польска, зміна можлива на німецьку та
+                                                    англійську.
+                                                </div>
+                                            </li>
+                                            <li class="project__description-item">
+                                                <div class="project__description-title lng-project-technology">Narzędzia</div>
+                                                <div class="project__description-content">HTML5, SCSS, Javascript
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a href="https://vvladlena.github.io/dvltrans/" target="_blank"
+                                            class="button intro__button" id="intro-button">
+                                            <div class="button__name lng-portfolio-btn">Open</div>
+                                            <img class="button__img" src="images/icons/triangle-yellow.svg"
+                                                alt="triangle">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="project__arrows">
+                            <a href="#" class="arrow arrow-left">
+                                <img src="./images/icons/left.png" alt="" class="arrow__img">
+                            </a>
+                            <a href="#" class="arrow arrow-right">
+                                <img src="./images/icons/right.png" alt="" class="arrow__img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section bottom">
+                <div class="container">
+                    <div class="bottom__inner">
+                        <h2 class="bottom__title title-style">Контакти</h2>
+                        <div class="bottom__description">Потрібен сайт або маєш питання? <br> Запрошую до
+                            контакту!</div>
+                        <a href="mailto:tsenzeria.v@gmail.com" class="button bottom_button">
+                            <div class="button__name lng-bottom-btn">Napisać</div>
+                            <img class="button__img" src="images/icons/triangle-yellow.svg" alt="triangle">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__content">
+                        <a href="https://www.instagram.com/vladlena.ts/" class="footer__image">
+                            <img src="./images/icons/instagram.svg" alt="" class="footer__image-img">
+                        </a>
+                        <a href="https://t.me/vladlena_site" class="footer__image">
+                            <img src="./images/icons/telegram.svg" alt="" class="footer__image-img">
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=48727829914" class="footer__image">
+                            <img src="./images/icons/whatsapp.svg" alt="" class="footer__image-img">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/langList.js"></script>
+    <script src="./js/langFunction.js"></script>
+
+
+</body>
+
+</html>
