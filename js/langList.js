@@ -28,7 +28,7 @@ const langArr = {
         "ua": "Написати",
     },
     "portfolio-btn": {
-        "pl": "Otwórz",
+        "pl": "Open",
         "ua": "Перейти",
     },
     "bottom-btn": {
@@ -106,8 +106,8 @@ const langArr = {
         "ua": "• курс від Genius Space, напрямок — Web-design",
     },
 
-     //features
-     "features-title": {
+    //features
+    "features-title": {
         "pl": "korzyści",
         "ua": "Особливості",
     },
@@ -136,31 +136,72 @@ const langArr = {
 
     //code
     "code-title": {
-        "pl": "Сzysty code - dobra strona",
+        "pl": "Сzysty kod - dobra strona",
         "ua": "Чистий код — якісний сайт",
     },
     "code-text-1": {
-        "pl": "Nie korzystam z kreatorów stron",
+        "pl": "Konstruktory stron internetowych często generują HTML-code, który jest dość dużym, a to niegatywnie wpływa na <span class='text-bold'> prędkość ładowania strony. </span> Większość klientów po prostu nie będą chcieli czekać, aż strona całkiem się załaduję i pójdą na stronę waszych konkurentów.",
         "ua": "Конструктори сайтів часто генерують HTML-код, який в результаті виходить досить великим, а це негативно позначиться на <span class='text-bold'>швидкості завантаження сайту.</span> Більшість клієнтів просто не дочекаються повного завантаження сайту і підуть до ваших конкурентів.",
     },
     "code-text-2": {
-        "pl": "Nie korzystam z kreatorów stron",
+        "pl": "Jeśli strona będzie zrobiona przez konstruktor stron internetowych, to potem możesz mieć problem przy promowaniu strony. Wyszukiwarki traktują takie strony z dużą nieufnością, dlatego jeśli strona stworzona w konstruktorze — nie licz na <span class='text-bold'> pierwsze pozycje w wynikach wyszukiwania.</span> ",
         "ua": "Також, при створенні сайту за допомогою онлайн конструкторів ви можете зіткнутися з проблемами при просуванні сайту. Пошукові системи ставляться з великою недовірою до таких сайтів, тому розраховувати на <span class='text-bold'>перші позиції в пошуковій видачі</span> і велику відвідуваність не варто. ",
     },
     "code-text-3": {
-        "pl": "Nie korzystam z kreatorów stron",
+        "pl": "Ja nie korzystam z konstruktorów stron internetowych, a robię strony porządnie. Piszę kod sama, maksymalnie czysto ta według wszystkich reguł.",
         "ua": "Я не користуюся шаблонними конструкторами, а створюю сайти якісно. Пишу код самостійно, максимально чисто та за всіма вимогами.",
     },
     "code-text-4": {
-        "pl": "Nie korzystam z kreatorów stron",
+        "pl": "Zapewniam HTML-kod spełniający wymagania wyszukiwarek.",
         "ua": "Забезпечую HTML-код, який відповідає вимогам пошукових систем.",
     },
 
 
-
-    //code
+    //projects
+    "project-title": {
+        "pl": "Moje projekty",
+        "ua": "Мої проекти",
+    },
+    "project-description": {
+        "pl": "Opis",
+        "ua": "Опис",
+    },
     "project-technology": {
         "pl": "Narzędzia",
         "ua": "Використані технології",
+    },
+    "project-1": {
+        "pl": "Projekt wykonałam na kursie Frontend developer. Zrobiłam layout stron według designu w programie Figma. Zrobiona wejściowa strona z animacją i trzy sekcje. Strona nie posiada wersji dla smartfonów.",
+        "ua": "Проект був виконаний на курсі по frontend розробці. Зроблено верстку сторінок за готовим макетом з програми Figma. Розроблено сторінку входу на сайт з анімацієютри і три розділи. Сайт без адаптивної версії для мобільних пристроїв.",
+    },
+    "project-2": {
+        "pl": "Drugi projekt z kursu Frontend developer. Strona posiada adaptywny design dla różnych urządzeń. Dodane są slidery zdjęć, vertical accordion, opinie, formularz zamówienia.",
+        "ua": "Другий проект з курсу frontend розробки. Реалізовано адаптивний дизайн для відображення на різних пристроях. Додано слайдери з фото, вертикальний акордеон, перегляд відгуків, форма замовлення.",
+    },
+    "project-3": {
+        "pl": "Standardowe funkcje - adaptywny design, slidery zdjęć, formularz wysłania na mail, animacje, Google mapa.",
+        "ua": "Адаптивний дизайн під різні розширення екрану. Реалізовано слайдери для фото, форма відправки заявки на мейл, замовлення зворотнього дзвінка, анімація, підключена гугл карта.",
+    },
+    "project-4": {
+        "pl": "Klient już miał kiedyś taką stronę, ale jego hosting wygasł i nie było możliwości go przedłużyć (klient nie miał kontaktów z poprzednim projektantem strony). Dlatego zamówieniem było stworzenie dokładnie takiej strony jak ta firma już miała i dodanie strony na nowy hosting.",
+        "ua": "Клієнт уже мав цей сайт раніше, але термін дії їхнього хостингу закінчився і в них не було можливості його продовжити. Також вони не мали зв'язку з їхнім попереднім розробником сайту. Тому замовленням було створити точно такий сайт, який вони мали і додати його на новий хостинг.",
+    },
+    "project-5": {
+        "pl": "Pierwsza moja strona wykonana na zamówienie. Może jeszcze nie najlepszej jakości, ale jedna z ulubionych. Zamówienie polegało na stworzeniu jak najbardziej ciemnego i ponurego designu.",
+        "ua": "Перший мій сайт виконаний на замовлення. Можливо ще не дуже якісний, але один з улюблених. Замовленням було розробити максимально темний і похмурий дизайн.",
+    },
+    "project-6": {
+        "pl": "Prosta strona typu Landing Page, stworzona dla międzynarodowej firmy transportowej. Dodana mozliwość zmiany języka.Domyślnie jest to polski, można go zmienić na niemiecki i angielski.",
+        "ua": "Простий сайт типу Landing Page, розроблений для міжнародної транспортної компанії. Реалізовано зміну мови. За замовчуванням — польска, зміна можлива на німецьку та англійську.",
+    },
+
+    //contact
+    "contact-title": {
+        "pl": "Kontakt",
+        "ua": "Контакти",
+    },
+    "contact-descriprtion": {
+        "pl": "Potrzebujesz stronę albo masz pytania? <br> Zapraszam do kontaktu!",
+        "ua": "Потрібен сайт або маєш питання? <br> Запрошую до контакту!",
     },
 }

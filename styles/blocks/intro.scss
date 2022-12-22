@@ -7,7 +7,7 @@
 
     &::before {
         position: absolute;
-        content: url(../../images/decor/main-decor.png);
+        content: url(../images/decor/main-decor.png);
         z-index: -1;
         left: -20%;
         top: -30%;
@@ -20,7 +20,7 @@
 
     &::after {
         position: absolute;
-        content: url(../../images/decor/main-decor-2.png);
+        content: url(../images/decor/main-decor-2.png);
         right: -25%;
         top: -40%;
         z-index: -1;

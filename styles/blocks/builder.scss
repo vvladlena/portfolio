@@ -4,7 +4,7 @@
 
     &:before {
         position: absolute;
-        content: url('../../images/decor/waves.png');
+        content: url('../images/decor/waves.png');
         top: -100px;
         left: 0;
 
@@ -34,7 +34,7 @@
 
     &--bottom {
         text-align: center;
-        background: center url('../../images/icons/yellow.svg');
+        background: center url('../images/icons/yellow.svg');
         background-size: 105%;
     }
 }

@@ -27,10 +27,9 @@
 }
 
 .service__number {
-    // font-family: $secondaryFontFamily;
     font-size: rem(63px);
     position: relative;
-    background: bottom / contain no-repeat url('../../images/icons/yellow.svg');
+    background: bottom / contain no-repeat url('../images/icons/yellow.svg');
     line-height: 100%;
     margin-right: rem(15px);
     height: auto;
