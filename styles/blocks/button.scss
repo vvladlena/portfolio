@@ -10,6 +10,7 @@
     color: #fff;
     padding: 5px;
     border: none;
+    font-weight: 500;
 
     &:hover {
         background-color: #fff;
@@ -19,10 +20,15 @@
     }
 
     &__name {
-        margin-right: rem(15px);
+        margin-right: rem(10px);
+    }
+
+    .button__image {
+        background: url('../images/icons/triangle-yellow.svg') center center no-repeat;
+        width: 16px;
+        height: 16px;
     }
 }
-
 
 
 .button_light {
@@ -31,9 +37,11 @@
     border: 0.5px solid $firstColor;
 
     &:hover {
-        background: $firstColor;
-        color: #fff;
+        background: $backgroundColorDark;
     }
 
+    .button__image {
+        background: url('../images/icons/triangle-black.svg') center center no-repeat;
+    }
 }
 

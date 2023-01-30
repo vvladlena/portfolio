@@ -1,0 +1,56 @@
+.price__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: rem(45px);
+    width: 100%;
+}
+
+.price__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid $fontColor;
+    font-weight: bold;
+}
+
+.price__include-name {
+    font-weight: bold;
+    margin-bottom: rem(15px);
+}
+
+.price__include-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price__include-item {
+    width: 50%;
+    padding: rem(10px) rem(15px);
+
+    @include phones{
+        width: 100%;
+    }
+}
+.price__top-number{
+    font-size: rem(24px);
+    background: bottom / contain no-repeat url('../../images/icons/yellow.svg');
+}
+.price__title{
+    margin-top: rem(30px);
+}

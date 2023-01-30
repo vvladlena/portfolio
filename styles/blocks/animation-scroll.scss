@@ -1,0 +1,62 @@
+.animated-object {
+    opacity: 0;
+}
+
+.animation {
+
+   
+
+    .advantages__item {
+        animation: fadeIn 2s forwards;
+
+        &--2 {
+            animation-delay: 750ms;
+        }
+
+        &--3 {
+            animation-delay: 1.5s;
+        }
+    }
+
+    .about__text-title {
+        opacity: 1;
+        overflow: hidden;
+        border-right: 1px solid $secondaryColor;
+        font-size: rem(20px);
+        white-space: nowrap;
+        width: 0;
+        animation: typing 2s steps(20, end) forwards;
+    }
+
+    .about__bottom {
+        animation: fadeIn 4s forwards;
+
+    }
+
+
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}

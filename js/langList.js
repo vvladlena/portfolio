@@ -1,7 +1,7 @@
 const langArr = {
 
     //menu
-    "menu-services": {
+    "menu-advantages": {
         "pl": "Głowna",
         "ua": "Головна",
     },
@@ -47,20 +47,20 @@ const langArr = {
         "ua": "Владлена Цензеря",
     },
     "intro-description": {
-        "pl": "skuteczne strony internetowe",
-        "ua": "виконую якісні сайти на замовлення",
+        "pl": "Wymyślam. Łamię stereotypy. Realizuję.",
+        "ua": "Вигадую. Ламаю стереотипи. Втілюю.",
     },
 
-    //service
-    "service-description-1": {
+    //advantage
+    "advantage-description-1": {
         "pl": "Dokończę wizerunek twojej marki w Internecie.",
         "ua": "Завершу формування твого бізнесу та налаштую його пошук в інтернеті.",
     },
-    "service-description-2": {
+    "advantage-description-2": {
         "pl": "Stworzę stronę, która przyciągnie Ci nowych klientów.",
         "ua": "Розроблю сайт, який приведе тобі нових клієнтів.",
     },
-    "service-description-3": {
+    "advantage-description-3": {
         "pl": "Automatyzuję procesy i obniżę twoje koszty",
         "ua": "Автоматизую процеси та знижу твої витрати.",
     },
@@ -72,16 +72,16 @@ const langArr = {
         "ua": "Про мене",
     },
     "text-title": {
-        "pl": "Cześć, mam na imię Vlada",
-        "ua": "Привіт, мене звати Влада",
+        "pl": "Zapraszam do mojego portfolio!",
+        "ua": "Ласкаво прошу до мого портфоліо!",
     },
     "text-description": {
-        "pl": "Już ponad rok zajmuję się projektowaniem stron internetowych. Przez jakiś czas miałam pracę, która nie była związana z Web, chociaż już na studiach wiedziałam, że Web Development — to moja pasja. To coś, co lubię i czym chcę się zajmować. Dlatego zdecydowałam zaryzykować i cały swój czas poświęcić na tworzenie stron internetowych i na to, żeby rozwijać się w tym kierunku. Zrezygnowałam ze stałej pracy i otworzyłam własną działalność gospodarczą. Teraz pracuję jako freelancer. Moi klienci to głównie właściciele małych firm, którzy chcą rozwijać swój biznes, przyciągać nowych klientów i zwiększać swój dochód.",
-        "ua": "Вже більше року займаюсь створенням веб-сайтів. Деякий час я працювала на роботі, яка не була пов’язана з вебом, хоч ще в університеті зрозміла, що веб-розробка — це моє. Це справа, яку я люблю та якою хочу займатися. Тому вирішила ризикнути та весь свій час присвятити тому, аби створювати веб-сайти та більше розвиватись в цьому напрямку. Я залишила постійну роботу, відкрила власну діяльність і зараз працюю як фрілансер. Найчастіше мої клієнти — це власники невеликого бізнесу, які хочуть масштабувати свою справу, привернути нових клієнтів та збільшити свій дохід."
+        "pl": "Już od dwóch lat doskonalę swoje umiejętności tworzenia stron internetowych, tworząc nowoczesne i funkcjonalne strony internetowe dla różnych klientów, od prostych Landing page do większych stron rozbudowanych. Mam doświadczenie i pomogę Ci realizować twoją wizję. Sprawdź moje portfolio, aby zobaczyć niektóre z moich najnowszych prac.",
+        "ua": "Вже два роки я вдосконалюю свої навички в веб-розробці, створюючи красиві, сучасні та функціональні веб-сайти для різноманітних клієнтів, від простих лендінгів до складних багатосторінкових веб-сайтів. Я маю досвід та допоможу втілити твоє бачення в життя. Переглянь моє портфоліо, щоб познайомитись із деякими з моїх останніх робіт."
     },
     "about-bottom": {
-        "pl": "Gotowa tworzyć niesamowite rzeczy ze wspaniałymi ludźmi!",
-        "ua": "Готова створювати, щось неймовірне з чудовими людьми!",
+        "pl": "Stwórzmy razem stronę internetową, która wyróżni Twoją firmę!",
+        "ua": "Давай разом створимо веб-сайт, який виділить твій бізнес!",
     },
 
     //study
@@ -113,7 +113,7 @@ const langArr = {
     },
     "features-name": {
         "pl": "All in one",
-        "ua": "All in one або “людина-оркестер”",
+        "ua": "All in one",
     },
     "features-text": {
         "pl": "Ja chętnie zrobię dla ciebie stronę <span class='text-bold'> od samego początku i dodam ją na hosting.</span> Zaprojektuję unikalny design, napiszę kod, zaprogramuję twoją stronę i jej wyszukiwanie w Internecie.",
@@ -121,7 +121,7 @@ const langArr = {
     },
     "features-text-2": {
         "pl": "Nie musisz płacić całej ekipie specjalistów, wystarczy napisać do mnie.",
-        "ua": "Тобі не потрібно платити цілій команді спеціалістів, вистачить звернутися до мене.",
+        "ua": "Тобі не потрібно платити цілій команді фахівців, вистачить звернутися до мене.",
     },
 
     //builder
@@ -140,20 +140,16 @@ const langArr = {
         "ua": "Чистий код — якісний сайт",
     },
     "code-text-1": {
-        "pl": "Konstruktory stron internetowych często generują HTML-code, który jest dość dużym, a to niegatywnie wpływa na <span class='text-bold'> prędkość ładowania strony. </span> Większość klientów po prostu nie będą chcieli czekać, aż strona całkiem się załaduję i pójdą na stronę waszych konkurentów.",
+        "pl": "Konstruktory stron internetowych często generują HTML-code, który jest dość dużym, a to niegatywnie wpływa <span class='text-bold'> prędkość ładowania strony. </span>",
         "ua": "Конструктори сайтів часто генерують HTML-код, який в результаті виходить досить великим, а це негативно позначиться на <span class='text-bold'>швидкості завантаження сайту.</span> Більшість клієнтів просто не дочекаються повного завантаження сайту і підуть до ваших конкурентів.",
     },
     "code-text-2": {
-        "pl": "Jeśli strona będzie zrobiona przez konstruktor stron internetowych, to potem możesz mieć problem przy promowaniu strony. Wyszukiwarki traktują takie strony z dużą nieufnością, dlatego jeśli strona stworzona w konstruktorze — nie licz na <span class='text-bold'> pierwsze pozycje w wynikach wyszukiwania.</span> ",
+        "pl": "Jeśli strona będzie zrobiona przez konstruktor stron internetowych, to potem możesz mieć problem przy promowaniu strony. Wyszukiwarki traktują takie strony z dużą nieufnością, dlatego jeśli strona stworzona w konstruktorze — nie licz na <span class='text-bold'>pierwsze pozycje w wynikach wyszukiwania. </span>",
         "ua": "Також, при створенні сайту за допомогою онлайн конструкторів ви можете зіткнутися з проблемами при просуванні сайту. Пошукові системи ставляться з великою недовірою до таких сайтів, тому розраховувати на <span class='text-bold'>перші позиції в пошуковій видачі</span> і велику відвідуваність не варто. ",
     },
     "code-text-3": {
-        "pl": "Ja nie korzystam z konstruktorów stron internetowych, a robię strony porządnie. Piszę kod sama, maksymalnie czysto ta według wszystkich reguł.",
-        "ua": "Я не користуюся шаблонними конструкторами, а створюю сайти якісно. Пишу код самостійно, максимально чисто та за всіма вимогами.",
-    },
-    "code-text-4": {
-        "pl": "Zapewniam HTML-kod spełniający wymagania wyszukiwarek.",
-        "ua": "Забезпечую HTML-код, який відповідає вимогам пошукових систем.",
+        "pl": "Ja nie korzystam z konstruktorów stron internetowych, a robię strony porządnie. Piszę kod sama, maksymalnie czysto ta według wszystkich reguł. Zapewniam HTML-kod spełniający wymagania wyszukiwarek.",
+        "ua": "Я не користуюся шаблонними конструкторами, а створюю сайти якісно. Пишу код самостійно, максимально чисто та за всіма вимогами. Забезпечую HTML-код, який відповідає вимогам пошукових систем.",
     },
 
 

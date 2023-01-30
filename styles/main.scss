@@ -1,5 +1,5 @@
 $containerWidth: 1200px;
-$baseFontSize: 24px;
+$baseFontSize: 22px;
 
 $firstColor: #171625;
 $secondaryColor: #DFFF84;
@@ -27,14 +27,19 @@ $phones: 480px;
 @import "blocks/header";
 @import "blocks/intro";
 @import "blocks/section";
-@import "blocks/services";
+@import "blocks/advantages";
 @import "blocks/about";
 @import "blocks/study";
+@import "blocks/services";
+@import "blocks/banner";
 @import "blocks/features";
 @import "blocks/builder";
 @import "blocks/projects";
+@import "blocks/price";
+@import "blocks/cooperation";
 @import "blocks/bottom";
 @import "blocks/footer";
+@import "blocks/animation-scroll";
 
 
 

@@ -1,0 +1,15 @@
+.banner__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $firstColor;
+    color: $backgroundColor;
+    border-radius: 12px;
+    height: rem(300px);
+    
+}
+
+.banner__text{
+    margin-bottom: rem(25px);
+}

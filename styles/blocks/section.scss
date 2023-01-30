@@ -9,10 +9,9 @@
     flex-direction: column;
 }
 
-.services {
-    margin-bottom: 0;
+.advantages{
+    padding: 0;
 }
-
 .about {
     background: $backgroundColor;
 }
@@ -25,12 +24,12 @@
     background: $backgroundColor;
 }
 
-.builder {
+.cooperation {
     background: $backgroundColorDark;
+
 }
 
 .bottom {
-    background: $backgroundColorDark;
     border-bottom: 1px solid $fontColor;
 
 }

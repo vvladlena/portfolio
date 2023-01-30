@@ -1,37 +1,31 @@
 .services__list {
     display: flex;
-    padding: 30px 0;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 
-.services__item {
+.service {
     display: flex;
-    width: 30%;
-    margin-right: 25px;
+    margin-bottom: rem(25px);
 
-    &:last-child {
-        margin-right: 0;
-    }
 
-    @include tablets {
-        min-width: 45%;
-        margin-bottom: 25px;
-    }
+}
 
-    @include phones {
-        width: 100%;
-        margin-right: 0;
-        padding: 0 10px;
-    }
+.service__content {
+    display: flex;
+    flex-direction: column;
 }
 
 .service__number {
-    font-size: rem(63px);
-    position: relative;
-    background: bottom / contain no-repeat url('../images/icons/yellow.svg');
-    line-height: 100%;
-    margin-right: rem(15px);
-    height: auto;
+    font-size: rem(36px);
+    font-weight: bold;
+    margin-right: rem(25px);
+    line-height: rem(36px);
+}
+
+.service__content-title {
+    font-weight: bold;
+    font-size: rem(28px);
 
 }

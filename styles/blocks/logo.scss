@@ -1,5 +1,6 @@
-.logo__name {
-    font-size: rem(50px);
+.logo {
+    font-size: rem(30px);
+    font-weight: bold;
 
     @include tablets {
         font-size: 40px;

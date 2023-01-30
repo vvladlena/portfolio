@@ -1,0 +1,72 @@
+.cooperation__inner {
+    &:before {
+        position: absolute;
+        content: url('../../images/decor/triange.png');
+        top: -100px;
+        left: 0;
+    }
+    &:after {
+        position: absolute;
+        content: url('../../images/decor/contact-decor.png');
+        bottom: -136px;
+        right: 0;
+    }
+}
+
+.cooperation__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cooperation__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin-bottom: rem(50px);
+
+    @include tablets {
+        width: 45%;
+    }
+
+    @include phones {
+        width: 100%;
+        flex-direction: row;
+    }
+}
+
+.cooperation__item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include phones {
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+}
+
+.cooperation__item-img {
+    margin-bottom: rem(10px);
+
+    @include phones {
+        margin-bottom: 0;
+        margin-right: 25px;
+    }
+
+}
+
+.cooperation__item-title {
+    font-size: rem(24px);
+    font-weight: bold;
+    margin-bottom: rem(10px);
+}
+
+.cooperation__item-description {
+    line-height: 120%;
+    font-size: rem(22px);
+}

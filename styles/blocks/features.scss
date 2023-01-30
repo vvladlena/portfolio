@@ -13,6 +13,7 @@
 .features__content--end {
     flex-direction: row-reverse;
     margin-bottom: rem(30px);
+   
 
     @include tablets{
         flex-direction: column;
