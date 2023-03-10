@@ -1,5 +1,6 @@
 .section__inner--study {
     flex-direction: row;
+
     @include phones {
         flex-direction: column;
     }
@@ -9,10 +10,11 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-right: 3%;
+    padding-right: rem(25px);
 
     @include phones {
         width: 98%;
+        padding: 0;
     }
 }
 
@@ -21,7 +23,7 @@
     flex-direction: column;
     width: 50%;
     border-left: 1px solid $firstColor;
-    padding-left: 10px;
+    padding-left: rem(25px);
 
     @include phones {
         border-left: 0;
@@ -44,6 +46,7 @@
     margin-bottom: rem(25px);
     width: 98%;
     position: relative;
+    font-size: rem(28px);
 
 }
 

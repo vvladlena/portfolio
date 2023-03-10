@@ -13,7 +13,7 @@
     font-weight: 500;
 
     &:hover {
-        background-color: #fff;
+        background-color: $backgroundColorDark;
         color: $firstColor;
         border: 0.5px solid $firstColor;
 
@@ -36,9 +36,9 @@
     color: $firstColor;
     border: 0.5px solid $firstColor;
 
-    &:hover {
-        background: $backgroundColorDark;
-    }
+    // &:hover {
+    //     background: $backgroundColorDark;
+    // }
 
     .button__image {
         background: url('../images/icons/triangle-black.svg') center center no-repeat;

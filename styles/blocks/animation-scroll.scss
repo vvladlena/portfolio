@@ -4,8 +4,6 @@
 
 .animation {
 
-   
-
     .advantages__item {
         animation: fadeIn 2s forwards;
 
@@ -34,29 +32,125 @@
     }
 
 
-}
-
-
-
-@keyframes fadeIn {
-    from {
+    .service {
         opacity: 0;
+        animation: topOpacity 2s ease 1 forwards;
+
+        &--02 {
+            animation-delay: 250ms;
+        }
+
+        &--03 {
+            animation-delay: 500ms;
+        }
+
+        &--04 {
+            animation-delay: 750ms;
+        }
+
+        &--05 {
+            animation-delay: 1000ms;
+        }
+
+        &--06 {
+            animation-delay: 1250ms;
+        }
     }
 
-    to {
+
+    .project__name {
         opacity: 1;
+
+        &::before {
+            position: absolute;
+            content: url('../../images/decor/project-name.png');
+            z-index: -1;
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 100px;
+            height: 500px;
+            background: #fff;
+            rotate: 90deg;
+            z-index: -1;
+            animation: toTop 2s .5s ease 1 forwards;
+        }
     }
-}
 
+    .cooperation__item{
+        opacity: 0;
+        animation: topOpacity 2s ease 1 forwards;
 
+        &--02 {
+            animation-delay: 250ms;
+        }
 
+        &--03 {
+            animation-delay: 500ms;
+        }
 
-@keyframes typing {
-    from {
-        width: 0
+        &--04 {
+            animation-delay: 750ms;
+        }
+
+        &--05 {
+            animation-delay: 1000ms;
+        }
+
+        &--06 {
+            animation-delay: 1250ms;
+        }
     }
 
-    to {
-        width: 100%
+
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
     }
+
+
+
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 100%
+        }
+    }
+
+
+    @keyframes topOpacity {
+        0% {
+            transform: translateY(250px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+
+    @keyframes toTop {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-1000px);
+        }
+    }
+
 }

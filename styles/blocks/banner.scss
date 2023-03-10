@@ -6,10 +6,16 @@
     background: $firstColor;
     color: $backgroundColor;
     border-radius: 12px;
-    height: rem(300px);
-    
+    height: rem(350px);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner__title{
+    font-size: rem(30px);
 }
 
 .banner__text{
     margin-bottom: rem(25px);
 }
+

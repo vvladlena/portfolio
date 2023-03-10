@@ -1,28 +1,21 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 90px;
     border-bottom: 1px solid $fontColor;
+    font-size: rem(22px);
 }
 
 .language {
-    // position: fixed;
-    // left: 10px;
-    // top: 50%;
-    // transform: translateY(-50%);
+
     display: flex;
     align-items: center;
     justify-content: center;
-    // flex-direction: column;
-    // z-index: 1000;
 }
 
-.language__item {
-    margin-right: 5px;
-
-    &:last-child {
-        margin-right: 0;
-    }
-
+.lng--ua {
+    margin-right: 10px;
+    border-right: 1px solid #000;
+    padding-right: 10px;
 }

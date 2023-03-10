@@ -1,4 +1,3 @@
-
 .features__content {
     display: flex;
     align-items: center;
@@ -13,9 +12,9 @@
 .features__content--end {
     flex-direction: row-reverse;
     margin-bottom: rem(30px);
-   
 
-    @include tablets{
+
+    @include tablets {
         flex-direction: column;
     }
 }
@@ -53,11 +52,24 @@
 }
 
 .features__image {
-    margin-right: rem(15px);
+    min-width: 50%;
     max-width: 500px;
+}
+
+.features__image--left {
+    margin-right: rem(35px);
+
+    @include phones{
+        margin-right: 0;
+    }
 }
 
 .features__item-title {
     font-weight: bold;
 }
 
+.features__icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}

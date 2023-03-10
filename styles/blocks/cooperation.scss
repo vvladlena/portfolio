@@ -2,13 +2,13 @@
     &:before {
         position: absolute;
         content: url('../../images/decor/triange.png');
-        top: -100px;
+        top: rem(-145px);
         left: 0;
     }
     &:after {
         position: absolute;
         content: url('../../images/decor/contact-decor.png');
-        bottom: -136px;
+        bottom: rem(-170px);
         right: 0;
     }
 }

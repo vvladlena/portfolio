@@ -13,3 +13,13 @@
     font-weight: bold;
     margin-bottom: 25px;
 }
+
+.bottom__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .button_light{
+        margin-right: 10px;
+    }
+}
