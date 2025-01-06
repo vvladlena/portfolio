@@ -470,17 +470,22 @@ label {
     color: #171625;
     border: 0.5px solid #171625; }
   .button__name {
-    margin-right: 0.4545454545rem; }
-  .button .button__image {
-    background: url("../images/icons/triangle-yellow.svg") center center no-repeat;
-    width: 16px;
-    height: 16px; }
+    margin-right: 0.4545454545rem;
+    display: flex;
+    align-items: center; }
+    .button__name:after {
+      margin-left: 6px;
+      content: '';
+      display: block;
+      background: url("../images/icons/triangle-yellow.svg") center center no-repeat;
+      width: 16px;
+      height: 16px; }
 
 .button_light {
   background: #fff;
   color: #171625;
   border: 0.5px solid #171625; }
-  .button_light .button__image {
+  .button_light__name:after {
     background: url("../images/icons/triangle-black.svg") center center no-repeat; }
 
 .header {
@@ -1019,11 +1024,11 @@ label {
       width: 100%; } }
 
 .price__top-number {
-  font-size: 1.0909090909rem;
+  font-size: 1.2727272727rem;
   background: bottom/contain no-repeat url("../../images/icons/yellow.svg"); }
 
 .price__title {
-  margin-top: 1.3636363636rem; }
+  margin-top: 1.0909090909rem; }
 
 .cooperation__inner:before {
   position: absolute;
