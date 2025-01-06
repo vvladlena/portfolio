@@ -21,12 +21,16 @@
 
     &__name {
         margin-right: rem(10px);
-    }
-
-    .button__image {
-        background: url('../images/icons/triangle-yellow.svg') center center no-repeat;
-        width: 16px;
-        height: 16px;
+        display: flex;
+        align-items: center;
+        &:after{
+            margin-left: 6px;
+            content: '';
+            display: block;
+            background: url('../images/icons/triangle-yellow.svg') center center no-repeat;
+            width: 16px;
+            height: 16px;
+        }
     }
 }
 
@@ -39,9 +43,17 @@
     // &:hover {
     //     background: $backgroundColorDark;
     // }
+    &__name {
 
-    .button__image {
-        background: url('../images/icons/triangle-black.svg') center center no-repeat;
+        &:after{
+            // margin-left: 6px;
+            // content: '';
+            // display: block;
+            background: url('../images/icons/triangle-black.svg') center center no-repeat;
+            // width: 16px;
+            // height: 16px;
+        }
     }
+   
 }
 
